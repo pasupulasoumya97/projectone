@@ -1,0 +1,68 @@
+Login_url = https://www.webmath.com
+
+
+Math_for_Everyone = //a[@href='/index1.html']
+calculas_integration = //option[@value='integrate.html']
+calculas_integration_locator = //input[@name='s']
+calculas_integration_value=5
+submit_button = //input[@type='submit']
+
+
+Coins_Counting_locator = //option[@value='cmoney1.html']
+quaters_value_locator = //input[@name='q']
+quaters_value = 2
+dimes_value_locator = //input[@name='d']
+dimes_value = 4
+nickles_value_locator = //input[@name='n']
+nickles_value = 6 
+pennies_value_locator = //input[@name='p']
+pennies_value = 8
+
+
+Combinations_Findingall = //option[@value='k8perm.html']
+Combinations_Textbox = //textarea[@wrap='physical']
+Textbox_value = Rose is red in colour
+
+
+ComplexNumbers_Multiplying = //option[@value='cn_mult.html']
+Textbox_locator = /html/body/div/div[2]/div[1]/div/div[3]/div[1]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/font/b/form/center/p[1]/input
+ComplexMultiply_value = 9i*6
+
+
+Geometry_Circles = //option[@value='geo_circle.html']
+Geometry_Circles_value_locator = //input[@name='param_value']
+dropdown = //select[@name='param_want']
+Geometry_Circles_value = 8
+Circle_Diameter = /html/body/div/div[2]/div[1]/div/div[3]/div[1]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/p[3]/select/option[2]
+
+
+Geometry_Rectangle = //option[@value='geo_rectangle.html']
+locator = //input[@name='param_value']
+Rectangle_Width_locator_value = 4
+Height_locator = //input[@name='param_value1']
+Rectangle_Height_locator_value = 3
+
+
+Geometry_Spheres = //option[@value='geo_sphere.html']
+Sphere_value = 5
+Area_locator = /html/body/div/div[2]/div[1]/div/div[3]/div[1]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/p[2]/select[2]/option[3]
+
+
+Geometry_RightTriangle = //option[@value='geo_triangle.html']
+locator_value = 13
+Height_locator_value = 6
+
+
+Numbers_Adding = //option[@value='k8ipadd.html']
+locator_one = //input[@name='n1']
+locator_one_value = 6
+locator_two = //input[@name='n2']
+locator_two_value = 10
+
+
+Numbers_Multiplying = //option[@value='k8ipmult.html']
+
+
+
+
+
