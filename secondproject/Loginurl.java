@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class MathForEveryoneFunction {
+public class Loginurl {
 	
     public static WebDriver driver;
     Properties p = loadProperty();
@@ -17,25 +17,25 @@ public class MathForEveryoneFunction {
 		    p.load(fis);
 		    return p;
 		    
-		} catch (Exception e) {
+		 } catch (Exception e) {
 		  System.out.println(e.getMessage());
 	      return null;
-		}
+	  }
 	}	    
 	
 
 @Test	
-public void InitializeBrowser() {
-	try {
+        public void InitializeBrowser() {
+	    try {
 		driver= new FirefoxDriver();
 		driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    String url = p.getProperty("Login_url");  
         driver.get(url);
     
-	} catch (Exception e) {
+	   } catch (Exception e) {
     	 System.out.println(e.getMessage());
-   }
+    }
   }
 }
 	
